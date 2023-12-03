@@ -1,0 +1,7 @@
+conda create -n polypdetection python -y
+conda activate polypdetection
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install jupyter
+conda install ipykernel
+python -m ipykernel install --user --name=polypdetection
+
